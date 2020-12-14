@@ -7,9 +7,12 @@ LLVM_DIR=$LLVM_HOME
 CLANG_DIR=$LLVM_HOME/tools/clang
 LLD_DIR=$LLVM_HOME/tools/lld
 
-LLVM_URL='http://llvm.org/releases/4.0.0/llvm-4.0.0.src.tar.xz'
-CLANG_URL='http://llvm.org/releases/4.0.0/cfe-4.0.0.src.tar.xz'
+#LLVM_URL='http://llvm.org/releases/4.0.0/llvm-4.0.0.src.tar.xz'
+#CLANG_URL='http://llvm.org/releases/4.0.0/cfe-4.0.0.src.tar.xz'
 LLD_URL='http://releases.llvm.org/4.0.0/lld-4.0.0.src.tar.xz'
+
+LLVM_URL='http://releases.llvm.org/4.0.0/llvm-4.0.0.src.tar.xz'
+CLANG_URL='http://releases.llvm.org/4.0.0/cfe-4.0.0.src.tar.xz'
 
 echo "LLVM_DIR:" $LLVM_DIR
 
