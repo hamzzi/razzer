@@ -27,6 +27,7 @@ $ git submodule update --init --depth=1 kernels_repo
 
 ```
 $ sudo apt install zlib libglib-dev python-setuptools quilt libssl-dev dwarfdump
+$ sudo apt-get install build-essential zlib1g-dev pkg-config libglib2.0-dev binutils-dev libboost-all-dev autoconf libtool libssl-dev libpixman-1-dev libpython-dev python-pip python-capstone virtualenv
 ```
 
 ## Install toolchains / tools
